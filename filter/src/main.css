@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: .5s ease-in-out;
+  /* добавим плавность переходов для всех элементов страницы*/
+}
+
+body,
+html {
+  margin: 0;
+  font-family: muli;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 2% 20%;
+}
+
+img {
+  height: 8vh;
+  margin-bottom: 0.5rem;
+}
+
+.main-content {
+  column-count: 3;
+  padding-top: 20px;
+}
+
+.project-cards {
+  transition: 0.4s linear;
+  margin: 10px 0;
+  width: 30px;
+}
+
+.filter-container  button {
+  justify-content: space-between;
+  margin-right: 0.5rem;
+  min-width: 4rem;
+  padding-right: 0.5rem 1rem;
+  border: none;
+  background: white;
+  color: grey;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+button.active {
+  background: grey;
+  color: white;
+}
+
+button:hover {
+  background: grey;
+  color: white;
+}
+
+
+

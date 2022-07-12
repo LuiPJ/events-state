@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body,
+html {
+  margin: 0;
+  font-family: muli;
+  height: 100%;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+.icon-switch-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem
+}
+
+.shop-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.cards {
+  border: 1px solid #ccc;
+  padding: 1vh;
+  background:  #EBEBF1;
+  transition: 0.4s linear;
+  border: 1px solid #EBEBF1;
+  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+  border-radius: 5px; 
+  width: 50px;
+  height: 360px;
+  margin: 16px;
+  flex: 1 1 30%;
+}
+ 
+.card-header,
+.card-color,
+.card-img {
+  display: flex;
+  justify-content: space-around;
+}
+  
+  
+.card-red-container {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+}
+  
+.card-button-add {
+  border: 1px solid red;
+  border-radius: 20px;
+  font-size: larger;
+  padding: 5px;
+  font-weight: normal;
+} 
+  
+.shop-card-container-2 {
+  flex-direction: column;
+  margin: 30px;
+}
+  
+.cards-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.4s linear;
+  background:#EBEBF1;
+  margin-bottom: 10px;
+}
+  
+.card-header-2 {
+  order: 1;
+}
+
+.card-color-2 {
+  order: 1;
+}
+  
+.card-red-container-2 {
+  display: contents;
+  order: 1;
+}
+
+.card-price-2 {
+  order: 1;
+  color:red;
+}
+  
+.card-button-add-2 {
+  order: 1;
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  font-size: larger;
+  padding: 5px;
+  font-weight: normal;
+}
